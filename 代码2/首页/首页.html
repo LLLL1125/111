@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>首页</title>
+    <style>
+          *{
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+            text-decoration: none;
+            list-style: none;
+        }
+        p{
+            font-size: 20px;
+        }
+        body{
+            height: 100%;
+            background-color:#c1dac1;
+            }
+        .table1{
+            float: left;
+            margin-top: 4%;
+            margin-left: 3%;
+            font-size: 25px;
+            width: 290px;
+            text-align: center;
+            background-color: white;
+            border-style: solid;
+            border-color:#d2eed2;
+            }
+        .table1 td{
+            border: none;
+            height: 70px;
+            }
+        .table1 img{
+            width: 190px;
+            height: 210px;
+            margin-left: -1%;
+            }
+
+        .table2{
+            float: right;
+            margin-top: 4%;
+            margin-right: 3%;
+            font-size: 25px;
+            width: 290px;
+            height: 510px;
+            line-height: 2rem;
+            background-color: white;
+            border-style: solid;
+            border-color:#d2eed2;
+            }
+        .table2 td{
+            border: none;
+            }
+
+        .table3{
+            width: 300px;
+            float: right;
+            margin-top: -10%;
+            background-color: white;
+        }
+        .table3 td{
+            border: none;
+            text-align: center;
+        }
+        .t1{
+            width: 2.1%;
+            }
+        .t2{
+            width: 3.4%;
+            color: white;
+            }
+        .t1 img{
+            width: 25px;
+            height: 25px;
+            margin-left: 50%;
+            }
+        #banner{
+            width: 700px;
+            height: 510px;
+            border: 2px solid #d2eed2;
+            border-style: solid;
+            overflow: hidden; 
+            margin-left: 26%;
+            position: relative;
+        }
+        #imglist{
+            width: 2800px;
+            height: 510px;
+        }
+        #imglist img{
+            width: 700px;
+            height: 510px;
+
+        }
+        #imglist li{
+            float: left;
+        }
+        .prev{
+            background: #666;
+            width: 30px;
+            height: 40px;
+            color: #fff;
+            text-align: center;
+            line-height: 40px;
+            position: absolute;
+            left: 5px;
+            top: 45%;
+            cursor: pointer;
+        }
+        .next{
+            background: #666;
+            width: 30px;
+            height: 40px;
+            color: #fff;
+            text-align: center;
+            line-height: 40px;
+            position: absolute;
+            right: 5px;
+            top: 45%;
+            cursor: pointer;
+        }
+        #icolist{
+            position: absolute;
+            right: 10px;
+            bottom: 10px;
+        }
+        #icolist li{
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background: #666;
+            text-align: center;
+            line-height: 30px;
+            color: #fff;
+            float: left;
+            margin-left: 5px;
+            cursor: pointer;
+        }    
+        a {
+            font-size: 22px;
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            text-decoration: none;
+            }
+        .footer {
+            margin-top: 10%;
+            text-align: center;
+            background-color:#2c6d36;
+            color: white;
+            height: 130px;
+            }
+    </style>
+</head>
+<body>
+    <table style="background-color:#9ac09a; width: 100%;">
+        <tr>
+            <td><img src="../picture/fq2.png" style=" height: 210px; width: 600px; margin-left: 2%;"></td>
+            <td><img src="../picture/lab-logo.png" style=" height: 210px;width: 240px;"></td>
+            <td><img src="../picture/fq1.png" alt="" style=" height: 210px; width: 610px; float: right; margin-right: 6%;"></td>
+        </tr>
+    </table>
+    
+
+    <div>
+    <table style="width: 100%;  height: 50px; background-color:#2c6d36">
+        <tr>
+            <td class="t1"><img src="../picture/首页-01.png" alt=""></td>
+            <td class="t2"><a href="../首页/首页.html" class="a1">首页</a></td>
+
+            <td class="t1"><img src="../picture/项目成员.png" alt=""></td>
+            <td class="t2"><a href="../内容/人员.html" class="a1">成员介绍</a></td>
+
+            <td class="t1"><img src="../picture/层面方向.png" alt=""></td>
+            <td class="t2"><a href="../内容/研究.html" class="a1">研究方向</a></td>
+
+            <td class="t1"><img src="../picture/活动，日历.png" alt=""></td>
+            <td class="t2"><a href="../内容/活动.html" class="a1">活动交流</a></td>
+
+            <td class="t1"><img src="../picture/培训.png" alt=""></td>
+            <td class="t2"><a href="../内容/课题.html" class="a1">培训课题</a></td>
+
+            <td class="t1"><img src="../picture/工具3.png" alt=""></td>
+            <td class="t2"><a href="/内容/工具.html" class="a1">在线工具</a></td>
+
+            <td class="t1"><img src="../picture/加入书架.png" alt=""></td>
+            <td class="t2"><a href="../内容/招聘.html" class="a1">加入我们</a></td>
+        </tr>
+    </table>
+</div>
+
+<table class="table2" border="2">
+    <tr><td style="font-size: 25px; margin-top: 1% ; margin-left: 10%;">培训课题</td></tr>
+    <tr><td style="font-size: 20px; line-height: normal;">1. 生信入门：何为生物信息学？</td></tr>
+    <tr><td style="font-size: 20px; ">2. linux系统的基本操作</td></tr>
+    <tr><td style="font-size: 20px; ">3. vim编辑器的简单使用</td></tr>
+    <tr><td style="font-size: 20px; ">4. 如何下载和配置软件</td></tr>
+    <tr><td style="font-size: 20px; ">5. shell入门</td></tr>
+    <tr><td style="font-size: 20px; ">6. python入门</td></tr>
+    <tr><td style="font-size: 20px; ">7. 本地blast的使用</td></tr>
+    <tr><td style="font-size: 20px; ">8. 转录组分析</td></tr>
+</table>
+
+    <table class="table1" border="2">
+        <tr><td style="font-size: 20px;">课题组负责人</td></tr>
+        <tr><td styl><img src="../picture/tao.png" alt=""></td></tr>
+        <tr><td style="font-size: 20px;">林涛&nbsp;&nbsp;教授</td></tr>
+        <tr><td style="font-size: 20px;">邮箱: lintao35@cau.edu.cn</td></tr>
+        <tr><td style="font-size: 20px;">电话:010-62733895</td></tr>
+    </table>
+
+    <div id="banner" style="margin-top: 4%;">
+        <ul id="imglist">
+            <li><img src="../picture/主页图片1.png" alt=""></li>
+            <li><img src="../picture/主页图片2.jpg" alt=""></li>
+            <li><img src="../picture/主页图片3.jpg" alt=""></li>
+            <li><img src="../picture/主页图片1.png" alt=""></li>
+        </ul>
+
+        <ul id="icolist">
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+        </ul>
+        <div class="prev">《</div>
+        <div class="next">》</div>
+    </div>
+
+    <script>
+        var eprev= document.querySelector('.prev');
+        var enext= document.querySelector('.next');
+        var esico=document.getElementById('icolist').getElementsByTagName('li');
+        var esicolist = document.querySelector('#icolist');
+        // 移动变量left
+        // 定时器timer
+        var left = 0;
+        var timer;
+        run();
+        // 滚动函数run
+        function run(){
+            if(left <= -2100) {
+                left=0;
+            }
+            var m=Math.floor(- left /700);
+            imglist.style.marginLeft=left +'px';
+            var n=(left % 700==0)? n =1200:n=15;
+            left -= 10;
+            timer = setTimeout(run,n);
+            icochange(m);
+        }
+        // 定位到指定图片的imgchange
+        function imchange(n){
+            let lt = -(n *700);
+            imglist.style.marginLeft=lt+'px';
+        }
+        eprev.onclick=function(){
+            let prevgo = Math.floor(-left /700) - 1;
+            if(prevgo== -1){
+                prevgo=4;
+            }
+            imchange(prevgo);
+        }
+        enext.onclick=function(){
+            let nextgo = Math.floor(-left /700) + 1;
+            if(nextgo== 5){
+                nextgo=0;
+            }
+            imchange(nextgo);
+        }
+        function icochange(m) {
+            for (let index = 0; index < esico.length; index++) {
+               esico[index].style.backgroundColor = '';
+            }
+            if(m < esico.length){
+                esico[m].style.backgroundColor = 'green';
+            }
+            esicolist.onclick = function (){
+                var tg=event.target;
+                let ico = tg.innerHTML -1;
+                imchange(ico);
+                icochange(ico);
+            }
+        }
+    </script>
+
+ <table style="margin-left: 5%; width: 1000px; margin-top: 5%;">
+    <td>
+        <table border="2" style="width: 405px;  margin-left: -8.8%; background-color: white; border-style: solid;border-color:#d2eed2; line-height: 2.5rem;">
+            <tr><td style="border: none;"><p style="font-size: 25px; margin-top: 1%; margin-left: 1%;">已发表文章</p></td></tr>
+            <tr><td style="border: none;"><p style="word-wrap: break-word;  text-indent: 1rem; "><a href="https://academic.oup.com/hr/article/10/8/uhad142/7234335?searchresult=1" target="_blank" style="color: black; font-size: 20px;">
+                1. 大果番茄近亲野生近亲选择性...</a></p></td></tr>
+            <tr><td style="border: none;"><p style="word-wrap: break-word; text-indent: 1rem;"><a href="https://onlinelibrary.wiley.com/doi/10.1111/pbi.14065" target="_blank" style="color: black; font-size:20px ;">
+                2. 基因组分析为钩端杂草中多倍...</a></p></td></tr>
+            <tr><td style="border: none;"><p style=" word-wrap: break-word; text-indent: 1rem;"><a href="https://www.frontiersin.org/articles/10.3389/fpls.2023.1155258/full" target="_blank" style="color: black;  font-size:20px ;">
+                3. 多组学分析揭示了水稻生物钟...</a></p></td></tr>
+            <tr><td style="border: none;"><p style="word-wrap: break-word; text-indent: 1rem;"><a href="https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-022-08814-z" target="_blank" style="color: black; font-size:20px ;">
+                4. 多组学分析揭示生菜高温诱导...</a></p></td></tr>
+            <tr><td style="border: none;">
+                <details>
+                    <summary><a href="../内容/研究.html#2" style="margin-left: 44%; color: black; font-size: 16px;">查看全部</a></summary>
+                </details>    
+            </td></tr>
+        </table>
+    </td>
+    <td>
+        <table border="2" style="width: 405px;  margin-left: 13.5%;background-color: white; border-style: solid;border-color:#d2eed2; line-height: 2.5rem;">
+            <tr><td style="border: none;  "><p style="margin-top: 1%; margin-left: 1%; font-size: 25px;">学术交流</p></td>
+            <tr><td style="border: none; "><p style="margin-left: 1rem; "><a href="" style="color: black;font-size: 20px;">1. 2023年9月18日文献分享--杨琴琴</a></p></td></tr>
+            <tr><td style="border: none; "><p style="margin-left: 1rem; "><a href="" style="color: black;font-size: 20px;">2. 2023年9月18日文献分享--王妍</a></p></td></tr>
+            <tr><td style="border: none; "><p style="margin-left: 1rem; "><a href="" style="color: black;font-size: 20px;">3. 2023年9月4日文献分享--刘芸</a></p></td></tr>
+            <tr><td style="border: none; "><p style="margin-left: 1rem; "><a href="" style="color: black;font-size: 20px;"></a></p></td></tr>
+            <tr><td style="border: none; "><p style="margin-left: 1rem; "><a href="" style="color: black;font-size: 20px;"></a></p></td></tr>
+            
+        </table>
+    </td>
+    
+    <td>
+        <table border="2" style="width:405px; margin-left:34%; background-color: white; border-style: solid; border-color:#d2eed2; line-height: 2.5rem;">
+            <tr><td style="border: none;"><p style="font-size: 25px; margin-top: 1%; margin-left: 1%;">活动交流</p></td></tr>
+            <tr><td style="border: none; "><p style="margin-left: 1rem; "><a href="../活动模块/夜骑/活动1.html" style="color: black;font-size: 20px;">1. 2023年9月2日夜骑长安街</a></p></td></tr>
+            <tr><td style="border: none; "><p style="margin-left: 1rem; "><a href="../活动模块/北戴河/活动2.html" style="color: black;font-size: 20px;">2. 2023年6月6日北戴河团建</a></p></td></tr>
+            <tr><td style="border: none; "><p style="margin-left: 1rem; "><a href="../活动模块/运动会/活动3.html" style="color: black;font-size: 20px;">3. 2023年4月1日运动会拔河比赛</a></p></td></tr>
+            <tr><td style="border: none; "><p style="margin-left: 1rem; "><a href="" style="color: black;font-size: 20px;"></a></p></td></tr>
+            <tr><td style="border: none; "><p style="margin-left: 1rem; "><a href="" style="color: black;font-size: 20px;"></a></p></td></tr>
+        </table>
+    </td>
+    
+</table>
+    <div class="footer">
+        <h2 style="font-size: 20px;">蔬菜种质创新与分子设计育种实验室<br>
+            Laboratory of Vegetable Germplasm Innovation and<br>
+            Molecular Design Breeding Copyright @ Tao Lab<br>
+            邮编：100094<br>
+            地址：北京市海淀区圆明园西路2号
+        </h2>
+    </div>
+</body>
+</html>
